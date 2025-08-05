@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaEduPlus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+   <nav>
+    <div class="logo">SeaEdu<span>+</span></div>
+    <ul class="nav-menu">
+        <li><a href="#" class="nav-link active" data-section="home">Beranda</a></li>
+        <li><a href="#" class="nav-link" data-section="eksplor">Eksplor</a></li>
+        <li><a href="#" class="nav-link" data-section="belajar">Belajar</a></li>
+        <li><a href="#" class="nav-link" data-section="penelitian">Penelitian</a></li>
+    </ul>
+   </nav>
+</header>
+
+<main>
+     <section class="section active" id="home">
+       <div class="hero">
+        <h1>Selamat Datang Sobat Penjelajah!</h1>
+        <p>Ayo kita Jelajahi Keajaiban Dunia Dalam Laut dan Temukan hal menakjubkan bersama SeaEduPlus</p>
+        <a href="#" class="cta-button" onclick="showSection('eksplor')">Jelajahi Sekarang</a>
+       </div> 
+
+       <div class="cards-container">
+        <div class="card clickable" data-target="eksplor">
+            <h3>🐟 Eksplorasi Hewan Laut</h3>
+            <p>Temukan berbagai spesies hewan laut yang menakjubkan dan pelajari tentang habitat mereka.</p>
+        </div>
+            <div class="card clickable" data-target="belajar">
+            <h3>🌊 Belajar Tentang Laut</h3>
+            <p>Ayo Belajar tentang Ekosistem laut, rantai makanan, dan pentingnya menjaga kelestarian Laut</p>
+        </div>
+            <div class="card clickable" data-target="penelitian">
+            <h3>🔬 Penelitian Laut</h3>
+            <p>Mari intip perkembangan penelitian terbaru tentang laut dan teknologi eksplorasi bawah Laut</p>
+        </div>
+       </div>
+     </section>
+
+     <section class="section" id="eksplor">
+        <div class="hero">
+            <h1>Eksplor Hewan Laut</h1>
+            <p>Temukan keragaman hewan laut yang menabjubkan di berbagai habitat</p>
+        </div>
+        
+    <div class="animal-grid">
+        <div class="animal-card">
+            <span class="animal-emoji">🐋</span>
+            <h3>Paus Biru</h3>
+            <p><strong>Habitat:</strong> Lautan terbuka di seluru dunia</p>
+            <p>Paus biru adalah mamalia laut terbesar di dunia. Mereka dapat tumbuh hingga 30 meter dan beratnya mencapai 200 ton. Makanan utama mereka adalah krill, sejenis udang kecil.</p>
+        </div>
+        
+        <div class="animal-card">
+            <span class="animal-emoji">🐢</span>
+            <h3>Penyu Hijau</h3>
+            <p><strong>Habitat:</strong> Perairan tropis dan subtropis</p>
+            <p>Reptil laut yang berimigrasi ribuan kilometer untuk bertelur di pantai kelahirannya.</p>
+        </div>
+        
+        <div class="animal-card">
+            <span class="animal-emoji">🐙</span>
+            <h3>Gurita Raksasa</h3>
+            <p><strong>Habitat:</strong> Laut pasifik utara</p>
+            <p>Intevebrata cerdas dengan kemampuan kamuflase yang luar biasa</p>
+        </div>
+        
+        <div class="animal-card">
+            <span class="animal-emoji">🐠</span>
+            <h3>Ikan Badut</h3>
+            <p><strong>Habitat:</strong> Terumbu karang Indo-pasifik</p>
+            <p>Ikan kecil berwarna cerah yang hidup bersimbiosis dengan anemon Laut</p>
+        </div>
+
+        <div class="animal-card">
+            <span class="animal-emoji">🦈</span>
+            <h3>Hiu</h3>
+            <p><strong>Habitat:</strong> Perairan Hangat di seluruh dunia</p>
+            <p>Hiu adalah jenis ikan yang kerangkanya terbuat dari tulang rawan, bukan tulang biasa. Mereka dikenal sebagai predator laut yang efisien dan memiliki peran penting dalam menjaga kesehatan ekosistem laut.</p>
+        </div>
+
+        <div class="animal-card">
+            <span class="animal-emoji">🦞</span>
+            <h3>Lobster</h3>
+            <p><strong>Habitat:</strong> Dasar Laut berbatu</p>
+            <p>Krustasea yang memiliki exokeleton keras dan cakar yang kuat untuk mencari makanan.</p>
+        </div>
+    </div>
+     </section>
+
+    <section class="section" id="belajar">
+        <div class="hero">
+            <h1>Belajar Hewan Laut</h1>
+            <p>Ayo memahami ekosistem laut dan pentingnya menjaga kelestariannya</p>
+        </div>
+
+        <div class="cards-container">
+        <div class="card">
+         <h3>🌊 Apa itu Laut?</h3>
+         <p>Laut adalah air asin yang luas yang menutupi sekitar 71% permukaan Bumi. Laut terbagi beberapa zona berdasarkan kedalaman dan penetrasi cahaya matahari</p>
+        </div>
+        <div class="card">
+            <h3>🐟 Rantai Makanan Laut</h3>
+            <p>Dimulai dari fitoplankton sebagai produsen primer, dilanjutkan zooplankton, ikan kecil, ikan besar, dan predator puncak seperti hiu dan paus.</p>
+        </div>
+        <div class="card">
+            <h3>🌅 Zona Laut</h3>
+            <p><strong>Zona Litoral:</strong> Area pasang surut<br>
+                <strong>Zona Neritik:</strong> Perairan dangkal (0-200m)<br>
+                <strong>Zona Oseanik:</strong> Laut terbuka<br>
+                <strong>Zona Abisal:</strong> Laut dalam (>4000m)</p>
+            </div>
+            <div class="card">
+                <h3>🐟 Rantai Makanan Laut</h3>
+                <p>Dimulai dari fitoplankton sebagai produsen primer, dilanjutkan zooplankton, ikan kecil, ikan besar, dan predator puncak seperti hiu dan paus.</p>
+            </div>
+            <div class="card">
+                <h3>🌡️ Arus Laut</h3>
+                <p>Pergerakan air laut yang di pengaruhi oleh angin, perbedaan suhu, dan rotasi bumi. Berperan penting dalam mengatur iklim global</p>
+            </div>
+            <div class="card">
+                <h3>♻️ Konverensi Laut</h3>
+                <p>pentingnya melindungi laut dari polusi plastik, overfish, dan perubahan iklim untuk menjaga keseimbangan ekosistem dan kehidupan di Bumi.</p>
+            </div>
+            </div>
+        </section>
+
+    <section class="section" id="penelitian">
+        <div class="hero">
+            <h1>Penelitian Laut</h1>
+            <p>Mengikuti perkembangan penelitian terbaru tentang kehidupan laut dan eksplorasi</p>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <h3>🔬 Teknologi Eksplorasi</h3>
+                <p><strong>Submersible</strong> Kapal selam mini untuk eksplorasi laut dalam<br>
+                <strong>ROV:</strong> Robot bawah air yang dikendalikan dari permukaan<br>
+                <strong>Sonar:</strong> Teknologi pemetaan dasar laut menggunakan gelombang suara</p>
+            </div>
+            <div class="card">
+                <h3>🧬 Biologi Molekuler Laut</h3>
+                <p>Penelitian DNA dan genetika organisme laut untuk memahami evolusi, adaptasi, dan hubungan kekerabatan spesies. Membantu dalam konverensi dan penemuan spesies baru.</p>
+            </div>
+            <div class="card">
+                <h3>🌊 Oseanografi</h3>
+                <p>Studi tentang sifat fisik, kimia, dan biologi laut. Meliputi penelitian arus laut, suhu, salinitas, dan dampaknya terhadap iklim global dan kehidupan laut</p>
+            </div>
+            <div class="card">
+                <h3>🦠 Mikrobiologi Laut</h3>
+                <p>Penelitian mikroorganisme laut yang berperan dalam siklus nutrisi dan rantai makanan, Bakteri dan plankton laut menghasilkan 70% oksigen di Bumi.</p>
+            </div>
+            <div class="card">
+                <h3>🛰️ Remote Sensing</h3>
+                <p>Penggunaan satelit untuk memantau kondisi laut dari luar angkasa. Memantau suhu permukaan laut, blooming alga, dan perubahan es laut di kutub.</p>
+            </div>
+            <div class="card">
+                <h3>🌡️ Penelitian Perubahan Laut</h3>
+                <p>Studi dampak pemanasan global terhadap laut, termasuk kenaikan permukaan laut, asidifikasi laut, dan pemutihan karang. Penting untuk prediksi masa depan.</p>
+            </div>
+            <div class="card">
+                <h3>🐋 Akustik Laut</h3>
+                <p>Penelitian komunikasi hewan laut melalui suara. Memahami bagaimana paus, lumba-lumba, dan ikan berkomunikasi serta dampak polusi suara terhadap mereka.</p>
+            </div>
+            <div class="card">
+                <h3>💊 Biografi Laut</h3>
+                <p>Pencarian senyawa bioaktif dari organisme laut untuk pengembangan obat-obatan. Banyak antibiotik dan obat kanker berasal dari organisme laut.</p>
+            </div>
+            <div class="card">
+                <h3>🗺️ Pemetaan Dasar Laut</h3>
+                <p>Proyek pemetaan topografi dasar laut menggunakan teknologi multibeam sonar. Hanya 20% dasar laut yang telah di petakan dengan detail.</p>
+            </div>
+        </div>
+        </section>
+    </main> 
+<footer>
+    <p>&copy; 2025 SeaEduPlus oleh DinaAyuF. Semua hak dilindungi.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
